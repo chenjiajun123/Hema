@@ -1,0 +1,56 @@
+.addressAdd-title{
+  display: flex;
+  justify-content: center;
+  font-size: 36rpx;
+  padding:10rpx 0;
+  align-items: center;
+  position: relative;
+}
+.addressAdd-title .save{
+  position: absolute;
+  right: 20rpx;
+  bottom:10prx;
+  font-size: 28rpx;
+  color: #00B2EE;
+}
+.picker{
+  padding:20rpx;
+  border:solid 1rpx #ccc;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center; 
+}
+.picker text{ 
+  margin-right: 20rpx;
+}
+.detail-address{
+  padding:20rpx;
+  border:solid 1rpx #ccc;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+}
+.detail-address text{
+  margin-right: 20rpx;
+}
+.connect-people{
+  padding:20rpx;
+  border:solid 1rpx #ccc;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+}
+.connect-people text{
+  margin-right: 20rpx;
+}
+.phone{
+  padding:20rpx;
+  border:solid 1rpx #ccc;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center; 
+}
+.phone text{
+  margin-right: 20rpx;
+}
+ 

@@ -1,0 +1,32 @@
+.address-title{
+  display: flex;
+  justify-content: center;
+  font-size: 36rpx;
+  padding:10rpx 0;
+  align-items: center;
+  position: relative;
+}
+.address-title .add-address{
+  position: absolute;
+  right: 20rpx;
+  bottom:10prx;
+  font-size: 28rpx;
+  color: #00B2EE;
+}
+.my-address{
+  font-size: 28rpx;
+  color:#ccc;
+}
+.my-address-list{
+  margin-top: 20rpx;
+   padding:20rpx 0;
+   padding-left:20rpx;
+  border-top: solid 1rpx #ccc;
+  border-bottom: solid 1rpx #ccc;
+  position: relative;
+}
+.my-address-list .Delete{
+  position: absolute;
+  bottom: 50rpx;
+  right: 20rpx;  
+}

@@ -1,0 +1,16 @@
+<view id="sort">
+  <view class="sort-title">
+    <text>分类</text>
+  </view>
+  <view class="sort-banner">
+    <image src='../../assets/images/indexBanner.jpg'></image>
+  </view>
+  <view class="sort-mid-menu">
+    <view class="menu-icon" wx:for="{{midIcon}}" wx:key="index" wx:for-index="index">
+      <view class="icon" id="{{index}}" bindtap='Toshoplist'>
+        <image src="{{item.src}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+</view>

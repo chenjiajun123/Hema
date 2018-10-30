@@ -1,0 +1,34 @@
+<view id="shop">
+  <view class="shop-title">
+    <text>购物车</text>
+    <text class="delete" bindtap='Delete'>删除</text>
+  </view>
+  <block>
+    <view class="shop-content">
+      <view class="shoplist" wx:for="{{carlist}}" wx:for-index="index" wx:key="index">
+        <icon type='{{item.type}}' color='#23a3ff' bindtap='selectNo' id="{{index}}"></icon>
+        <image src='{{item.image}}' class="shoplist-image"></image>
+        <view class="text" style="height:{{carlistImage}}">
+        <text class="title">{{item.title}}</text>
+        <text class="price">{{item.price}}/{{item.word}}</text>
+        </view>
+        <view class="count" >
+        <text class="jian" bindtap='reduce' id="{{index}}">-</text>
+        <input type="text" class="num" value='{{item.count}}'></input>
+        <text class="jia" bindtap='add' id="{{index}}">+</text>
+        </view>
+      </view>
+    </view>
+  </block>
+  <view class="shop-accounts">
+    <view class="left">
+      <icon type='{{status}}' class="select-all" bindtap='selectAll' color='#23a3ff'></icon>
+      <text>全选</text>
+    </view>
+    <view class="right">
+      <text>合计：</text>
+      <text>￥{{money}}</text>
+      <text class="button">去结算</text>
+    </view>
+  </view>
+</view> 

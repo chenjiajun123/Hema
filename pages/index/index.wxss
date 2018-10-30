@@ -1,0 +1,166 @@
+.index-banner {
+  position: relative;
+  width: 100%;
+}
+.index-title{
+  display: flex;
+  justify-content: space-around; 
+  background-color: #00B2EE;
+  padding:20rpx 0;
+  width: 100%;
+  align-items: center;
+}
+.index-title .position{
+  width:44rpx;
+  height: 44rpx;
+
+}
+.index-title .search{
+  background-color: #fff;
+  width: 70%;
+  border-radius: 33rpx;
+  padding:10rpx 0;
+  font-size: 32rpx;
+  text-align: center;
+  color:#ccc;
+}
+.index-title .scan{
+   width:44rpx;
+  height: 44rpx;
+
+}
+.index-banner .swiper {
+  width: 100%;
+}
+
+.slide-image {
+  width: 100%;
+  height: 323rpx;
+}
+
+.dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.dots .dot {
+  margin-right: 15rpx;
+  width: 20rpx;
+  height: 20rpx;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.dots .dot:last-child {
+  margin-right: 0;
+}
+
+.dots .dot.active {
+  width: 24rpx;
+  background: #0bc4ec;
+}
+
+.index-mid-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index-mid-menu .menu-icon {
+  display: flex;
+  padding-bottom: 23rpx;
+  width: 20%;
+  justify-content: center;
+}
+
+.index-mid-menu .icon {
+  display: flex;
+  margin-top: 23rpx;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-mid-menu .icon image {
+  width: 82rpx;
+  height: 82rpx;
+}
+
+.index-mid-menu .icon text {
+  margin-top: 15rpx;
+  font-size: 24rpx;
+}
+
+.shopList-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopList-title image {
+  width: 50rpx;
+  height: 60rpx;
+}
+
+.shopList-title text {
+  margin-left: 10rpx;
+  font-size: 24rpx;
+}
+
+.swiper-item {
+  position: relative;
+}
+
+.List {
+  display: flex;
+  align-items: center;
+  margin: 0 40rpx;
+  width: 100%;
+  position: relative;
+}
+
+.List image {
+  width: 200rpx;
+  height: 200rpx;
+  display: flex;
+  margin-right: 30rpx;
+}
+
+.List .List-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.List .List-content .List-title {
+  font-size: 28rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+}
+
+.List .List-content .List-Details {
+  font-size: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  color: #a9a9a9;
+}
+
+.List .List-content .List-price {
+  color: #ff7c2a;
+  font-size: 24rpx;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ 

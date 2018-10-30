@@ -1,0 +1,49 @@
+<view id="index">
+  <view class="index-title">
+    <image src='../../assets/icons/position.png' class="position" bindtap='Toaddress'></image>
+    <input type='text' class="search"></input>
+    <image src='../../assets/icons/scan.png' class="scan" bindtap='scan'></image>
+  </view>
+  <view class='index-banner'>
+    <swiper autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper" style='height:{{banner}}'>
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="dots">
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <view class="dot {{index == swiperCurrent  ? 'active' : ''}}"></view>
+      </block>
+    </view>
+  </view>
+  <view class="index-mid-menu">
+    <view class="menu-icon" wx:for="{{midIcon}}" :key="index" wx:for-index="index">
+      <view class="icon" id="{{index}}" bindtap="Toshoplist">
+        <image src="{{item.src}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="index-shopList">
+    <view class="shopList-title">
+      <image src='../../assets/icons/crown.png'></image>
+      <text>{{ctitle}}</text>
+    </view>
+    <swiper style='height:{{ListHeight}}'>
+      <swiper-item wx:for="{{List}}" :key="index">
+        <view class="List">
+          <image src='{{item.image}}' class="List-pic"></image>
+          <view class="List-content" style='height:{{ListHeight}}'>
+            <text class="List-title">{{item.title}}</text>
+            <text class="List-Details">{{item.cparagraph}}</text>
+            <view class="List-price">
+              <text>${{item.price}}/箱</text>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

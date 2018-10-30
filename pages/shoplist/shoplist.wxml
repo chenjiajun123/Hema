@@ -1,0 +1,22 @@
+<view id="shoplist">
+  <view class="shoplist-title">
+    <text>分类</text>
+      <image src='../../assets/icons/shopping-sel.png' bindtap='navigator'></image>
+  </view>
+  <view class="shoplist-content">
+    <block>
+      <view class="list" wx:for="{{list}}" wx:for-index="index">
+        <view class="left-pic">
+          <image src='{{item.image}}'></image>
+        </view>
+        <view class="right-content">
+          <text class="title">{{item.title}}</text>
+          <view class="price">
+            <text>{{item.price}}/{{item.word}}</text>
+            <text class="add" id="{{index}}" bindtap='Tocar'>+</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

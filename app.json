@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shoplist/shoplist",
+    "pages/user/user",
+    "pages/shop/shop",
+    "pages/sort/sort",
+    "pages/address/address",
+    "pages/addressAdd/addressAdd"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00B2EE",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#b6b9c3",
+    "selectedColor": "#00B2EE", 
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "selectedIconPath": "./assets/icons/hema-sel.png",
+        "iconPath": "./assets/icons/hema.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "./assets/icons/sort-sel.png",
+        "iconPath": "./assets/icons/sort.png",
+        "pagePath": "pages/sort/sort",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "./assets/icons/shopping-sel.png",
+        "iconPath": "./assets/icons/shopping.png",
+        "pagePath": "pages/shop/shop",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "./assets/icons/mine-sel.png",
+        "iconPath": "./assets/icons/mine.png",
+        "pagePath": "pages/user/user",
+        "text": "个人信息"
+      }
+    ]
+  }
+}

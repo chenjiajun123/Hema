@@ -1,0 +1,115 @@
+.shop-title {
+  padding: 30rpx;
+  background-coloR: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  position: relative;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.shop-title .delete {
+  position: absolute;
+  right: 20rpx;
+  font-size: 24rpx;
+  color: #989898;
+}
+.shop-content {
+  margin-top:30rpx;
+}
+.shop-content .shoplist{
+  border-bottom: 1px solid #d2d2d2;
+  padding:30rpx; 
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.shop-content .shoplist icon{
+  margin-right: 10rpx;
+}
+.shop-content .shoplist image{
+  width: 148rpx;
+  height: 148rpx;
+}
+.shop-content .shoplist .text{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 24rpx;
+}
+.shop-content .shoplist .price{
+  color:#ff6f14;
+}
+.shop-content .shoplist .count{
+  position: absolute;
+  right: 30rpx;
+  width: 200rpx;
+  border:solid 1rpx #cccccc;
+  border-radius: 10rpx;
+  height: 50rpx;
+  bottom: 30rpx;
+  display: flex;
+  align-items: center;
+}
+.shop-content .shoplist .count .jian{
+  width: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+  color:#cccccc;
+  border-right: solid 1rpx #cccccc;
+}
+.shop-content .shoplist .count .num{
+  display: flex;
+  width: 100rpx;
+  align-items: center;
+ text-align: center;
+  color:#cccccc;
+  font-size: 32rpx;
+   border-right: solid 1rpx #cccccc;
+   
+}
+.shop-content .shoplist .count .jia{
+   width: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+  color:#cccccc;
+}
+.shop-accounts {
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20rpx;
+}
+
+.shop-accounts .button {
+  padding: 20rpx 40rpx;
+  background-color: #23a3ff;
+  height: 100%;
+  display: block;
+  color: #fff;
+  font-size: 36rpx;
+  margin-left: 20rpx;
+}
+
+.shop-accounts .left {
+  display: flex;
+  align-items: center;
+  font-size: 36rpx;
+}
+
+.shop-accounts .right {
+  color: #ff6d11;
+  font-size: 24rpx;
+  display: flex;
+  align-items: center;
+}

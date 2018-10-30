@@ -1,0 +1,27 @@
+<view id="address">
+  <view class="address-title">
+    <text>收货地址</text>
+    <text class="add-address" bindtap='address'>新增地址</text>
+  </view>
+  <view class="my-address">
+    <view class="my-address-list" wx:for="{{listAddress}}" wx:for-index="index" :key="index">
+      <view class="area">
+        <text>地区:</text>
+        <text>{{item.region[0]}}{{item.region[1]}}{{item.region[2]}}</text>
+      </view>
+      <text class="Delete" id="{{index}}" bindtap='Delete'>删除</text>
+      <view class="detail">
+        <text>详细地址:</text>
+        <text>{{item.detail}}</text>
+      </view>
+      <view class="connect">
+        <text>联系人:</text>
+        <text>{{item.connect}}</text>
+      </view>
+      <view class="Phone">
+        <text>手机号:</text>
+        <text>{{item.Phone}}</text>
+      </view>
+    </view>
+  </view>
+</view>

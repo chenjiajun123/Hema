@@ -1,0 +1,60 @@
+<view id="user">
+  <view class="scan">
+    <view class="left">
+      <image src='../../assets/images/avatar.jpg'></image>
+      <text>棒棒糖20151012</text>
+    </view>
+    <view class="right">
+      <image src='../../assets/icons/scan.png'></image>
+      <image src='../../assets/icons/payment.png'></image>
+    </view>
+  </view>
+  <view class="user-icon">
+    <view class="icon-one">
+      <image src='../../assets/icons/wallet.png'></image>
+      <text>待付款</text>
+    </view>
+    <view class="icon-two">
+      <image src='../../assets/icons/package.png'></image>
+      <text>待配送</text>
+    </view>
+    <view class="icon-three">
+      <image src='../../assets/icons/delivery.png'></image>
+      <text>配送中</text>
+    </view>
+    <view class="icon-four">
+      <image src='../../assets/icons/hand.png'></image>
+      <text>待评价</text>
+    </view>
+    <view class="icon-five">
+      <image src='../../assets/icons/order.png'></image>
+      <text>全部订单</text>
+    </view>
+  </view>
+  <view class="user-button-list">
+    <view class="list-one">
+      <navigator open-type="switchTab" url="../index/index"  class="coupon">
+        <image src='../../assets/icons/discount.png'></image>
+        <text>优惠券</text>
+      </navigator>
+    </view>
+    <view class="list-two">
+      <navigator open-type="switchTab" url="../index/index"  class="welfare">
+        <image src='../../assets/icons/welfare.png'></image>
+        <text>福利社</text>
+      </navigator>
+    </view>
+    <view class="list-three">
+      <navigator open-type="switchTab" url="../index/index"  class="friends">
+        <image src='../../assets/icons/friends.png'></image>
+        <text>邀请好友</text>
+      </navigator>
+    </view>
+    <view class="list-four">
+      <navigator open-type="switchTab" url="../index/index"  class="credit">
+        <image src='../../assets/icons/credit.png'></image>
+        <text>银行卡</text>
+      </navigator>
+    </view>
+  </view>
+</view>
